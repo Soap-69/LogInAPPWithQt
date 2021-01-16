@@ -28,7 +28,7 @@ void MainWindow::on_pushButton_login_clicked()
     if(username == "admin" && password == "1234"){
        adminpage = new AdminPage(this);
        adminpage->show();
-       QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+       QFile file("***Whatever the location of the file inventory.txt located");
        if(file.open(QFile::ReadOnly | QFile::Text)){
            QTextStream in(&file);
            while(!in.atEnd()){
