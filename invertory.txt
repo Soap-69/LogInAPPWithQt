@@ -1,0 +1,17 @@
+0000:PORSCHE_Macan:52100 (starting price):20
+0000:PORSCHE_Panamera:87200 (starting price):16
+0000:PORSCHE_Cayenne:67500 (starting price):0
+0000:PORSCHE_911:99200 (starting price):6
+0000:PORSCHE_718:59900 (starting price):0
+
+
+0001:Macan:52100:Alex Schwartz
+0002:911:99200:Shari Waters
+0003:Macan:52100:Austin Lucas
+0004:Macan:52100:Misty Lambert
+0005:718:59900:Dale Curtis
+0006:Cayenne:67500:Christine Boyd
+0007:Panamera:87200:Yvonne Bass
+0008:Macan:52100:Yvonne Wang
+0009:911:99200:Sean Sun
+0010:Panamera:87200:Pete Williamson
