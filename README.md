@@ -1,6 +1,6 @@
 # LogInAPPWithQt
 This app is based on Qt and will allow customer and user to use and manage inventory 
-This is a Windows Qt & C++17 based program.
+Windows Qt & C++17 based program.
 
 
 ***For customer user use only:
