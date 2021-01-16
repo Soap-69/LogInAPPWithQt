@@ -31,7 +31,7 @@ void AdminPage::on_pushButton_AddInvertory_clicked()
 void AdminPage::on_pushButton_monthlySalesTotal_clicked()
 {
     int total = 0;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         while(!in.atEnd()){
@@ -50,7 +50,7 @@ void AdminPage::on_pushButton_monthlySalesTotal_clicked()
 void AdminPage::on_pushButton_totalTaxes_clicked()
 {
     double tax = 0;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         while(!in.atEnd()){
@@ -74,7 +74,7 @@ void AdminPage::on_pushButton_monthlySalesPerItem_clicked()
     int count_macan = 0;
     int count_cayenne = 0;
     int count_panamera = 0;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         while(!in.atEnd()){
@@ -113,7 +113,7 @@ void AdminPage::on_pushButton_ListOrder_clicked()
     QString getName;
     QString vehicleType;
     QString orderNumber;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         bool ok;
@@ -142,7 +142,7 @@ void AdminPage::on_pushButton_SingleOrder_clicked()
     QString vehicleType;
     QString orderNumber;
     QString customerName;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         bool ok;
@@ -168,7 +168,7 @@ void AdminPage::on_pushButton_SingleOrder_clicked()
 void AdminPage::on_pushButton_ListCustomer_clicked()
 {
     QString name;
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         while(!in.atEnd()){
