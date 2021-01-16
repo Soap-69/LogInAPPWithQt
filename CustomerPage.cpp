@@ -47,7 +47,7 @@ void CustomerPage::on_pushButton_checkou_clicked()
 
 void CustomerPage::on_pushButton_availability_clicked()
 {
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(file.open(QFile::ReadOnly | QFile::Text)){
         QTextStream in(&file);
         while(!in.atEnd()){
