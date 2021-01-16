@@ -18,7 +18,7 @@ invertory::~invertory()
 
 void invertory::on_pushButton_write_clicked()
 {
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(!file.open(QFile::WriteOnly | QFile::Text)){
         QMessageBox::warning(this,"title", "file not open");
     }
@@ -31,7 +31,7 @@ void invertory::on_pushButton_write_clicked()
 
 void invertory::on_pushButton_read_clicked()
 {
-    QFile file("C:/Users/Augus/Documents/FinalProject/invertory.txt");
+    QFile file("***Whatever the location of the file inventory.txt located");
     if(!file.open(QFile::ReadOnly | QFile::Text)){
         QMessageBox::warning(this,"title", "file not open");
     }
